@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.titulo{
+  font-family: 'Russo One', sans-serif;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem 0;
+  text-transform: uppercase;
+  text-decoration: underline 2px double #808080;
+}
+
+
+
+/*INICIO TABELA*/
+table {
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  border-collapse: collapse;
+}
+
+td{
+  border: 1px solid #000000;
+  text-align: center;
+  width: 80px;
+  height: 80px;
+}
+
+.nao__metais:hover, .metais__alcalinos:hover, .metais__alcalinos__terrosos:hover, .metais__transicao:hover, .semi__metais:hover, .outros__metais:hover, .halogenio:hover, .gases__nobres:hover, .propriedades__desconhecidas:hover, .lantanideos:hover,.actinideos:hover {
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.45) inset;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 0.2s ease-out;
+}
+
+.vazio{
+  border: 0;
+}
+
+.numero__atomico{
+  text-align: left;
+  padding-left: 5px;
+}
+
+.simbolo{
+  font-size: 20px;
+  text-align: center;
+}
+
+.nome{
+  font-size: 11px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.massa__atomica{
+  font-size: 8px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nao__metais{
+  background-color: #FF1493;
+}
+
+.metais__alcalinos{
+  background-color: #66CDAA;
+}
+
+.metais__alcalinos__terrosos{
+  background-color: #BDB76B;
+}
+
+.metais__transicao{
+  background-color: #FFFF00;
+}
+
+.semi__metais{
+  background-color: #00FF00;
+}
+
+.outros__metais{
+  background-color: #00FFFF;
+}
+
+.halogenio{
+  background-color: #FFA500;
+}
+
+.gases__nobres{
+  background-color: #A020F0;
+}
+
+.propriedades__desconhecidas{
+  background-color: #C0C0C0;
+}
+
+.lantanideos{
+  background-color: #0080ff;
+}
+
+.actinideos{
+  background-color: #7093DB;
+}
+/*FINAL TABELA*/
+
+
+
+/* INICIO LEGENDA TABELA */
+.tabela__legenda{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.cores__legenda{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  height: 50px;
+  background-color: #F5F5F5;
+}
+
+.cores__elementos{
+  display: inline-block;
+  border-radius: 5px;
+  width: 20px;
+  height: 20px;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,0.45) inset;
+}
+
+#box__nao__metais{
+  background-color: #FF1493;
+}
+
+#box__metais__alcalinos{
+  background-color: #66CDAA;
+}
+
+#box__metais__alcalinos__terrosos{
+  background-color: #BDB76B;
+}
+
+#box__metais__transicao{
+  background-color: #FFFF00;
+}
+
+#box__semi__metais{
+  background-color: #00FF00;
+}
+
+#box__outros__metais{
+  background-color: #00FFFF;
+}
+
+#box__halogenios{
+  background-color: #FFA500;
+}
+
+#box__gases__nobres{
+  background-color: #A020F0;
+}
+
+#box__propriedades__desconhecidas{
+  background-color: #C0C0C0;
+}
+
+#box__lantanideos{
+  background-color: #0080ff;
+}
+
+#box__actinideos{
+  background-color: #7093DB;
+}
+/* FINAL LEGENDA TABELA */
+
+
+
+/* INICIO FOOTER */
+.footer_info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.footer_info p{
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.footer_info ul{
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer_info ul li {
+  text-align: center;
+  padding-left: 5px;
+  transition: all 0.2s;
+}
+
+.footer_info ul li:hover {
+  scale: 1.1;
+}
+/* FINAL FOOTER */
