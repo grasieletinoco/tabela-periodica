@@ -18,6 +18,12 @@
 
 
 /*INICIO TABELA*/
+main{
+  margin: 0 auto;
+  max-width: 1300px;
+  padding: 0 10px;
+}
+
 table {
   font-family: 'Kdam Thmor Pro', sans-serif;
   border-collapse: collapse;
